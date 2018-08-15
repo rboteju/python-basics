@@ -30,4 +30,5 @@ for meteor in meteor_data:
                                   my_loc[1])
 
 meteor_data.sort(key=get_dist)
-print(meteor_data[0:10])
+#print(meteor_data[0:10])
+print(meteor_data[0])
