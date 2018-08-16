@@ -2,12 +2,13 @@
 Learning Python Basics - 08/15/2018
 A demo project that uses Python and NASA data to find meteor landing sites.
 
-##
+## Running
 
 This project requires Python 3 and the requests package.
 
-`python3.6 find_meteors.py`
+First, install pipenv. Then:
 
-# New content - 08/16/2018
-  - blah blah
-  - blah blah blah
+```
+pipenv install
+pipenv run "python find_meteors.py"
+```
